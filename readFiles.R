@@ -21,10 +21,15 @@ readFiles <- function(inputFile) {
   
   experimental <- experimental_data %>%
     mutate(gender_image = substr(stimulus,24,24),
+           stimulus_number = substr(stimulus,24,27),
            left_image = substr(stimulus,37,37)) %>%
     mutate(peak = case_when(left_image == 'p' ~ 'left',
                             left_image == 'l' ~ 'right')) %>%
-    select(c(rt,key_press,peak,gender_image))
+    select(c(rt,
+             key_press,
+             peak,
+             stimulus_number, 
+             gender_image))
   
   # Get the ID
   
@@ -52,6 +57,24 @@ readFiles <- function(inputFile) {
     filter(trial_type == 'gender') %$%
     fromJSON(responses)$Q0
   
+  # Get the Difficult
+  
+  difficulty <- file %>% 
+    filter(trial_type == 'difficulty') %$%
+    fromJSON(responses)$Q0
+  
+  # Get the strategy
+  
+  strategy <- file %>% 
+    filter(trial_type == 'strategy') %$%
+    fromJSON(responses)$Q0
+  
+  # Get the recognition
+  
+  recognition <- file %>% 
+    filter(trial_type == 'recognition') %$%
+    fromJSON(responses)$Q0
+  
   # Get the comments
   
   comments <- file %>% 
@@ -65,6 +88,9 @@ readFiles <- function(inputFile) {
                            gender,
                            experimental,
                            iri_questions,
+                           difficulty,
+                           strategy,
+                           recognition,
                            comments
                            )
   return(experiment)

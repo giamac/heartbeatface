@@ -17,3 +17,4 @@ all_files <- lapply(list_of_data,readFiles)
 final_df <- do.call('rbind', all_files)
 
 # Do stuff with the data
+write_csv(final_df,'first_files.csv')

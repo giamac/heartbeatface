@@ -87,7 +87,7 @@ readFiles <- function(inputFile) {
                            age,
                            gender,
                            experimental,
-                           iri_questions,
+                           iri_data,
                            difficulty,
                            strategy,
                            recognition,

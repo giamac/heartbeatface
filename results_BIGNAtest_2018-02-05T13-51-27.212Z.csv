@@ -1,0 +1,50 @@
+success,trial_type,trial_index,time_elapsed,internal_node_id,rt,responses,stimulus,key_press
+TRUE,fullscreen,0,2746,0.0-0.0,,,,
+,subject-id,1,10936,0.0-1.0,8187,"{""Q0"":""BIGNAtest\n""}",,
+,instructions-task,2,18011,0.0-2.0,4831,,"Sie werden im Folgenden Bilder von Gesichtern sehen. Es werden immer zwei Bilder gleichzeitig gezeigt und Sie sollten entscheiden, welches der beiden Gesichter das attraktivere ist. Bitte entscheiden Sie aus dem Bauch heraus.<p>Benutzen Sie bitte Ihre <strong>RECHTE HAND</strong> um die Tasten <strong>J</strong> und <strong>N</strong> zu betaetigen.</p><p>Wenn Sie glauben, dass das Gesicht auf der <strong>linken Seite</strong> attraktiver ist, druecken Sie die Taste <strong>N</strong>.</p><p>Wenn Sie glauben, dass das Gesicht auf der <strong>rechten Seite</strong> attraktiver ist, dann druecken Sie bitte die Taste <strong>J</strong>.<p>Sie muessen eine Wahl (links=N oder rechts=J) treffen, um zum naechsten Bild fortzufahren.</p><p>Bitte antworten Sie <strong>so schnell wie moeglich</strong>, da bei diesem Task Ihre Zeit gemessen wird.</p><p>Druecken Sie eine beliebige Taste, um fortzufahren.</p>",32
+,pic-responses,3,20632,0.0-3.0-0.0,2617,,"<img src=""img/peakpics/m_02_average_peak.jpg"" /><img src=""img/peakpics/m_02_average_low.jpg"" />",74
+,pic-responses,4,22399,0.0-3.0-0.1,1765,,"<img src=""img/peakpics/m_11_average_low.jpg"" /><img src=""img/peakpics/m_11_average_peak.jpg"" />",74
+,pic-responses,5,23698,0.0-3.0-0.2,1296,,"<img src=""img/peakpics/f_03_average_low.jpg"" /><img src=""img/peakpics/f_03_average_peak.jpg"" />",78
+,pic-responses,6,25472,0.0-3.0-0.3,1772,,"<img src=""img/peakpics/f_08_average_peak.jpg"" /><img src=""img/peakpics/f_08_average_low.jpg"" />",74
+,pic-responses,7,27161,0.0-3.0-0.4,1687,,"<img src=""img/peakpics/m_04_average_peak.jpg"" /><img src=""img/peakpics/m_04_average_low.jpg"" />",78
+,pic-responses,8,28488,0.0-3.0-0.5,1325,,"<img src=""img/peakpics/f_07_average_peak.jpg"" /><img src=""img/peakpics/f_07_average_low.jpg"" />",74
+,pic-responses,9,29839,0.0-3.0-0.6,1350,,"<img src=""img/peakpics/f_05_average_low.jpg"" /><img src=""img/peakpics/f_05_average_peak.jpg"" />",78
+,pic-responses,10,31200,0.0-3.0-0.7,1360,,"<img src=""img/peakpics/m_05_average_low.jpg"" /><img src=""img/peakpics/m_05_average_peak.jpg"" />",74
+,pic-responses,11,32479,0.0-3.0-0.8,1278,,"<img src=""img/peakpics/m_02_average_low.jpg"" /><img src=""img/peakpics/m_02_average_peak.jpg"" />",78
+,pic-responses,12,33432,0.0-3.0-0.9,950,,"<img src=""img/peakpics/m_09_average_low.jpg"" /><img src=""img/peakpics/m_09_average_peak.jpg"" />",74
+,pic-responses,13,34706,0.0-3.0-0.10,1273,,"<img src=""img/peakpics/m_10_average_peak.jpg"" /><img src=""img/peakpics/m_10_average_low.jpg"" />",78
+,pic-responses,14,36032,0.0-3.0-0.11,1324,,"<img src=""img/peakpics/m_08_average_low.jpg"" /><img src=""img/peakpics/m_08_average_peak.jpg"" />",74
+,pic-responses,15,37287,0.0-3.0-0.12,1253,,"<img src=""img/peakpics/f_02_average_peak.jpg"" /><img src=""img/peakpics/f_02_average_low.jpg"" />",78
+,pic-responses,16,38414,0.0-3.0-0.13,1127,,"<img src=""img/peakpics/f_04_average_low.jpg"" /><img src=""img/peakpics/f_04_average_peak.jpg"" />",74
+,pic-responses,17,39232,0.0-3.0-0.14,816,,"<img src=""img/peakpics/f_09_average_low.jpg"" /><img src=""img/peakpics/f_09_average_peak.jpg"" />",78
+,pic-responses,18,39744,0.0-3.0-0.15,511,,"<img src=""img/peakpics/m_03_average_peak.jpg"" /><img src=""img/peakpics/m_03_average_low.jpg"" />",74
+,pic-responses,19,40071,0.0-3.0-0.16,327,,"<img src=""img/peakpics/f_06_average_peak.jpg"" /><img src=""img/peakpics/f_06_average_low.jpg"" />",78
+,pic-responses,20,40329,0.0-3.0-0.17,257,,"<img src=""img/peakpics/f_09_average_peak.jpg"" /><img src=""img/peakpics/f_09_average_low.jpg"" />",74
+,pic-responses,21,40544,0.0-3.0-0.18,213,,"<img src=""img/peakpics/f_05_average_peak.jpg"" /><img src=""img/peakpics/f_05_average_low.jpg"" />",78
+,pic-responses,22,40999,0.0-3.0-0.19,454,,"<img src=""img/peakpics/f_01_average_peak.jpg"" /><img src=""img/peakpics/f_01_average_low.jpg"" />",74
+,pic-responses,23,41329,0.0-3.0-0.20,329,,"<img src=""img/peakpics/m_03_average_low.jpg"" /><img src=""img/peakpics/m_03_average_peak.jpg"" />",78
+,pic-responses,24,41655,0.0-3.0-0.21,325,,"<img src=""img/peakpics/f_01_average_low.jpg"" /><img src=""img/peakpics/f_01_average_peak.jpg"" />",74
+,pic-responses,25,41896,0.0-3.0-0.22,240,,"<img src=""img/peakpics/f_08_average_low.jpg"" /><img src=""img/peakpics/f_08_average_peak.jpg"" />",78
+,pic-responses,26,42256,0.0-3.0-0.23,359,,"<img src=""img/peakpics/f_04_average_peak.jpg"" /><img src=""img/peakpics/f_04_average_low.jpg"" />",74
+,pic-responses,27,42513,0.0-3.0-0.24,257,,"<img src=""img/peakpics/m_08_average_peak.jpg"" /><img src=""img/peakpics/m_08_average_low.jpg"" />",78
+,pic-responses,28,42935,0.0-3.0-0.25,421,,"<img src=""img/peakpics/f_10_average_peak.jpg"" /><img src=""img/peakpics/f_10_average_low.jpg"" />",74
+,pic-responses,29,43264,0.0-3.0-0.26,328,,"<img src=""img/peakpics/m_04_average_low.jpg"" /><img src=""img/peakpics/m_04_average_peak.jpg"" />",78
+,pic-responses,30,43536,0.0-3.0-0.27,270,,"<img src=""img/peakpics/m_10_average_low.jpg"" /><img src=""img/peakpics/m_10_average_peak.jpg"" />",74
+,pic-responses,31,43863,0.0-3.0-0.28,326,,"<img src=""img/peakpics/f_06_average_low.jpg"" /><img src=""img/peakpics/f_06_average_peak.jpg"" />",78
+,pic-responses,32,44144,0.0-3.0-0.29,279,,"<img src=""img/peakpics/f_02_average_low.jpg"" /><img src=""img/peakpics/f_02_average_peak.jpg"" />",74
+,pic-responses,33,44551,0.0-3.0-0.30,407,,"<img src=""img/peakpics/f_10_average_low.jpg"" /><img src=""img/peakpics/f_10_average_peak.jpg"" />",78
+,pic-responses,34,44800,0.0-3.0-0.31,248,,"<img src=""img/peakpics/m_11_average_peak.jpg"" /><img src=""img/peakpics/m_11_average_low.jpg"" />",74
+,pic-responses,35,45400,0.0-3.0-0.32,599,,"<img src=""img/peakpics/m_05_average_peak.jpg"" /><img src=""img/peakpics/m_05_average_low.jpg"" />",78
+,pic-responses,36,45639,0.0-3.0-0.33,238,,"<img src=""img/peakpics/m_09_average_peak.jpg"" /><img src=""img/peakpics/m_09_average_low.jpg"" />",74
+,pic-responses,37,45935,0.0-3.0-0.34,295,,"<img src=""img/peakpics/f_03_average_peak.jpg"" /><img src=""img/peakpics/f_03_average_low.jpg"" />",78
+,pic-responses,38,46201,0.0-3.0-0.35,264,,"<img src=""img/peakpics/f_07_average_low.jpg"" /><img src=""img/peakpics/f_07_average_peak.jpg"" />",74
+,difficulty,39,50256,0.0-4.0,4054,"{""Q0"":0}",,
+,strategy,40,52494,0.0-5.0,2236,"{""Q0"":["" Nein""]}",,
+,recognition,41,58074,0.0-6.0,5578,"{""Q0"":["" Ja""]}",,
+,instructions-iri,42,61656,0.0-7.0,3581,,"<p>Sie werden jetzt eine Reihe von Aussagen lesen, die jeweils bestimmte (verallgemeinerte) menschliche Eigenschaften oder Reaktionen beschreiben, die alle etwas mit Gefuehlen zu tun haben. Bitte kennzeichnen Sie dann auf der 5-Punkte-Skala, iniwieweit diese Aussage auf Sie zutrifft; je hoeher die Zahl, desto hoeher die Zustimmung. Vielleicht faellt Ihnen auch zu der einen oder anderen allgemeinen Beschreibung ein konkretes Erlebnis ein.</p><p><strong>Es gibt keine richtigen oder falschen Antworten.</strong></p><p>Wir danken Ihnen bereits jetzt fuer Ihre Mitarbeit und Ihre ehrliche Beantwortung der Fragen. Bitte beginnen Sie nun, indem Sie eine beliebige Taste druecken, um fortzufahren.</p>",32
+,iri-responses,43,89982,0.0-8.0,28320,"{""Q0"":2,""Q1"":3,""Q2"":1,""Q3"":0,""Q4"":0,""Q5"":1,""Q6"":2,""Q7"":3,""Q8"":3,""Q9"":2,""Q10"":0,""Q11"":"""",""Q12"":"""",""Q13"":0,""Q14"":1,""Q15"":2}",,
+,age,44,96547,0.0-9.0,6564,"{""Q0"":""109""}",,
+,gender,45,98417,0.0-10.0,1866,"{""Q0"":["" Weiblich""]}",,
+,comments,46,111014,0.0-11.0,12596,"{""Q0"":""so ein lustiges experiment!\n""}",,
+,end-screen,47,117284,0.0-12.0,6268,,Das Experiment ist nun vorbei. Vielen Dank fuer Ihre Teilnahme!,32
+TRUE,fullscreen,48,118287,0.0-13.0,,,,

@@ -1,0 +1,61 @@
+---
+title: "Heart Beat Face Study - Pilot"
+author: "Gianluca Macauda"
+date: "6 Februar 2018"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+library(ggplot2)
+library(jsonlite)
+``` 
+
+```{r task}
+# Import data
+## Read data from csv into data frame
+file <- readr::read_csv('results_BIGNAtest_2018-02-05T13-51-27.212Z.csv')
+
+
+experimental_data <- file %>%
+  filter(trial_type == 'pic-responses') %>%
+  select(c(trial_index,
+           rt,
+           stimulus,
+           key_press))
+write_csv(experimental_data, path = 'nicer_format.csv')
+experimental_data
+```
+
+```{r}
+iri_data <- file %>%
+  filter(trial_type == 'iri-responses')
+
+iri_questions <- data.frame(fromJSON(iri_data$responses))
+
+iri_questions
+
+age <- file %>%
+  filter(trial_type == 'age')
+
+age <- fromJSON(age$responses)
+
+age
+
+gender <- file %>% 
+  filter(trial_type == 'gender')
+
+gender
+
+comments <- file %>% 
+  filter(trial_type == 'comments')
+
+comments <- fromJSON(comments$responses)
+
+comments
+```
+
+
+
+

@@ -45,6 +45,15 @@ readFiles <- function(inputFile) {
     select(responses) %$%
     data.frame(fromJSON(responses))
   
+  # pics check
+  
+  pics_check <- file %>%
+    filter(trial_type == 'pic-checks') %>%
+    select(responses) %$%
+    data.frame(fromJSON(responses)) %>%
+    rename(picCheck1 = Q0,
+           picCheck2 = Q1)
+  
   # Get the age
   
   age <- file %>%
@@ -81,6 +90,8 @@ readFiles <- function(inputFile) {
     filter(trial_type == 'comments') %$%
     fromJSON(responses)$Q0
   
+
+  
   # merge all data into a data frame
   
   experiment <- data.frame(id,
@@ -91,6 +102,7 @@ readFiles <- function(inputFile) {
                            difficulty,
                            strategy,
                            recognition,
+                           pics_check,
                            comments
                            )
   return(experiment)

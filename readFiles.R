@@ -13,9 +13,11 @@ readFiles <- function(inputFile) {
   
   experimental_data <- file %>%
     filter(trial_type == 'pic-responses') %>%
+    mutate(response = case_when(key_press == 74 ~ 'right',
+                                key_press == 78 ~ 'left')) %>%
     select(c(rt,
              stimulus,
-             key_press))
+             response))
   
   # Recode Variables in Experiment to get the stimulus presented on the left and the gender
   
@@ -26,7 +28,7 @@ readFiles <- function(inputFile) {
     mutate(peak = case_when(left_image == 'p' ~ 'left',
                             left_image == 'l' ~ 'right')) %>%
     select(c(rt,
-             key_press,
+             response,
              peak,
              stimulus_number, 
              gender_image))
@@ -104,6 +106,9 @@ readFiles <- function(inputFile) {
                            recognition,
                            pics_check,
                            comments
-                           )
+                           ) %>%
+    mutate(congruence = case_when(response == peak ~ 1,
+                                  response != peak ~ 0))
+    
   return(experiment)
 }
